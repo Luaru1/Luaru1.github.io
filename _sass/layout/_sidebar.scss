@@ -58,20 +58,17 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     width: 6.5rem;
     height: 6.5rem;
     overflow: hidden;
-    box-shadow: var(--avatar-border-color) 0 0 0 2px;
+    box-shadow: var(--avatar-border-color) 0 0 0 1px;
     transform: translateZ(0); /* fixed the zoom in Safari */
 
     @include bp.sm {
-      width: 7rem;
-      height: 7rem;
+      width: 10rem;
+      height: 10rem;
     }
 
     img {
-      transition: transform 0.5s;
-
-      &:hover {
-        transform: scale(1.2);
-      }
+      width: 10rem;
+      height: 10rem;
     }
   }
 
@@ -100,7 +97,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
 
     font-family: inherit;
     font-weight: 900;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     line-height: 1.2;
     letter-spacing: 0.25px;
     margin-top: 1.25rem;
