@@ -64,7 +64,6 @@ main() {
   bundle exec htmlproofer "$SITE_DIR" \
     --disable-external \
     --allow-hash-href \
-    --empty-alt-ignore \
     --ignore-missing-alt \
     --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
 }
