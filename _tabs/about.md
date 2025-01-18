@@ -4,4 +4,4 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> 아카이브 확장 중...{: .prompt-tip }
+> 아카이브 확장 중...
