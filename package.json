@@ -58,14 +58,13 @@
     "not dead"
   ],
   "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ],
+    "extends": [],
     "rules": {
-      "body-max-line-length": [
-        0,
-        "always"
-      ]
+      "type-enum": [0, "always", []],
+      "scope-empty": [0, "always"],
+      "subject-case": [0, "always"],
+      "header-max-length": [0, "always"],
+      "body-max-line-length": [0, "always"]
     }
   },
   "release": {
